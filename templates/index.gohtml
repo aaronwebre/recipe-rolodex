@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe Rolodex</title>
+</head>
+<body>
+
+<h1>Recipe Rolodex</h1>
+	{{range .}}
+	<p>{{.Course}} - {{.Title}}</p>
+	<p>{{.Date}}</p>
+	<p>{{.Source}}</p>
+	<p>{{.Notes}}</p>
+	{{end}}
+</body>
+
+</html>
